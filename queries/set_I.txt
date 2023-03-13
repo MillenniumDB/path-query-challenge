@@ -1,0 +1,6 @@
+63,<http://www.wikidata.org/entity/Q3044> (<http://www.wikidata.org/prop/direct/P40>/(<http://www.wikidata.org/prop/direct/P40>)*) <http://www.wikidata.org/entity/Q8016>
+81,<http://www.wikidata.org/entity/Q4176> (<http://www.wikidata.org/prop/direct/P31>/<http://www.wikidata.org/prop/direct/P279>) <http://www.wikidata.org/entity/Q16970>
+97,<http://www.wikidata.org/entity/Q64> ((<http://www.wikidata.org/prop/direct/P31>)*/(<http://www.wikidata.org/prop/direct/P279>)*) <http://www.wikidata.org/entity/Q811430>
+98,<http://www.wikidata.org/entity/Q64> (<http://www.wikidata.org/prop/direct/P31>/(<http://www.wikidata.org/prop/direct/P279>)*) <http://www.wikidata.org/entity/Q811430>
+104,<http://www.wikidata.org/entity/Q80484> ((<http://www.wikidata.org/prop/direct/P131>)+/(<http://www.wikidata.org/prop/direct/P17>)*) <http://www.wikidata.org/entity/Q145>
+105,<http://www.wikidata.org/entity/Q80484> ((<http://www.wikidata.org/prop/direct/P131>)+/(<http://www.wikidata.org/prop/direct/P17>)+) <http://www.wikidata.org/entity/Q145>

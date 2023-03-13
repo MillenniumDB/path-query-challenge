@@ -1,0 +1,6 @@
+63,MATCH p=( (:Entity{id:'Q3044'})-[:P40]->()-[:P40*0..]->(:Entity{id:'Q8016'}) ) RETURN p
+81,MATCH p=( (:Entity{id:'Q4176'})-[:P31]->()-[:P279]->(:Entity{id:'Q16970'}) ) RETURN p
+97,MATCH p=( (:Entity{id:'Q64'})-[:P31*0..]->()-[:P279*0..]->(:Entity{id:'Q811430'}) ) RETURN p
+98,MATCH p=( (:Entity{id:'Q64'})-[:P31]->()-[:P279*0..]->(:Entity{id:'Q811430'}) ) RETURN p
+104,MATCH p=( (:Entity{id:'Q80484'})-[:P131*1..]->()-[:P17*0..]->(:Entity{id:'Q145'}) ) RETURN p
+105,MATCH p=( (:Entity{id:'Q80484'})-[:P131*1..]->()-[:P17*1..]->(:Entity{id:'Q145'}) ) RETURN p
