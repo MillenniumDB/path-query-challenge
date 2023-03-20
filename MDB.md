@@ -26,6 +26,14 @@ Then you can run the script choosing the desired parameters:
     - `python3 scripts/benchmark_mdb.py queries/set_I.txt ANY bfs cache btree`
 
 ### Considerations for the parameters
+- The param block `[ANY|SIMPLE|TRAILS|ALL|ALL_COUNT]` selects the desired semantics of returned paths. Here `ALL` stands for `ALL SHORTEST`. The semantics of `ANY` will depend on the selected algorithm (see `[bfs|dfs]` below).
+
+- The param block `[btree|trie]` selects the data access method. The `btree` option uses the disk data stored in B+trees and buffered into main memory. The `trie` option stores the data in main memory using a compact sparse array representation. The `trie` is constructed on the fly as needed.
+
+- The param block `[cache|naive]` tells us whether the in-memory representation is loaded each time a new query is fired (`naive`), or if we cache previously loaded relations (`cache`).
+
+- The param bloc `[bfs|dfs]` selects the algorithm applied to evaluate the queries. Note that `bfs` combined with `ANY` gives a single shortest path, while `dfs` with `ANY` gives an arbitrary path.
+
 - The param `dfs` is only considered when using `ANY|SIMPLE|TRAILS`, because `ALL|ALL_COUNT` don't have an dfs implementation.
 
 - The params `[cache|naive]` are only considered when using `trie`. They don't have any impact when using `btree`.
